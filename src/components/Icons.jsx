@@ -7,6 +7,7 @@ const Icons = () => {
   return (
     <IconContext.Provider value={{ color: "blue", size: "4rem" }}>
       <div>
+        <h1>React Icons Practical</h1>
         <FaReact />
         <MdAlarm />
       </div>
