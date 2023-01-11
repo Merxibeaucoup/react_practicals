@@ -1,5 +1,6 @@
 import React from "react";
 import Icons from "./components/Icons";
+import ModalPractical from "./components/ModalPractical";
 import Toast from "./components/Toast";
 
 const App = () => {
@@ -7,6 +8,7 @@ const App = () => {
     <div>
       <Icons />
       <Toast />
+      <ModalPractical />
     </div>
   );
 };

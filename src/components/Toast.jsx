@@ -16,7 +16,7 @@ const Toast = () => {
     toast("Basic notification!", { position: toast.POSITION.TOP_LEFT });
     toast.success("Success notification!", {
       position: toast.POSITION.TOP_CENTER,
-      autoClose: 8000,
+      autoClose: 1000,
     });
     toast.info("Info notification", { position: toast.POSITION.TOP_RIGHT });
     toast.warn(<CustomToast />, {
